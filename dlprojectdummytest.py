@@ -1,4 +1,5 @@
 import pandas as pd
+import matplotlib as plt
 import numpy as np
 from dlprojectdummy import DeepLearningRecommender
 
@@ -60,6 +61,7 @@ def load_and_prepare_data(product_file='product_info.csv',
         print("\nDetailed error information:")
         print(traceback.format_exc())
         raise
+
 
 def main():
     print("Starting Recommender System Training...")

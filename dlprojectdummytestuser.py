@@ -263,6 +263,7 @@ def select_diverse_recommendations_enhanced(results, top_k):
         top_100 = top_100.drop(selected_idx)
     
     return pd.DataFrame(top_recommendations)
+
 def main():
     print("Starting recommendation process...")
     try:
